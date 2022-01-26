@@ -1,5 +1,3 @@
-from codecs import getencoder
-from pip import main
 from flask import Flask, render_template, request
 from dotenv import load_dotenv
 import os
